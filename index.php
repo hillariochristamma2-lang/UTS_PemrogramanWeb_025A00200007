@@ -6,7 +6,6 @@ $prodi  = 'Informatika';
 $univ   = 'Tiga Serangkai University';
 $asal   = 'Surakarta';
 
-
 ?>
 
 <!DOCTYPE html>
@@ -29,7 +28,7 @@ $asal   = 'Surakarta';
     </header>
 
     <main>
-        <section class="profil-kolektok">
+        <section class="profil-kolektor">
             <h2> Profil Kolektor </h2>
             <img src="asset\profil-sementara.jpeg" alt="Foto Profil" <?= htmlspecialchars($nama) ?> class="foto-profil">
 
