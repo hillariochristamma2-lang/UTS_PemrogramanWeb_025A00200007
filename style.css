@@ -102,3 +102,149 @@ footer {
         gap: 8px;
     }
 }
+
+@media (max-width: 1024px) {
+    .gird-katalog {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+}
+
+@media (max-width: 768px) {
+    .gird-katalog {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+}
+
+.gird-katalog {
+    display: grid;
+    gap: 24px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.ringkasa {
+    background-color: #ffff;
+    padding: 24px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.ringkasan h2 {
+    margin-bottom: 16px;
+    color: #2c3e50;
+}
+
+.ringkasan a {
+    display: inline-block;
+    margin-top: 16px;
+    padding: 8px 16px;
+    background-color: #3498db;
+    color: #ffff;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.ringkasan a:hover {
+    background-color: #2980b9;
+    transform: translateY(-2px);
+}
+
+.gird-katalog {
+    display: grid;
+    gap: 24px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.kartu-lagu {
+    background-color: #ffffff;
+    padding: 24px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.kartu-lagu:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.kartu-lagu h3 {
+    margin-bottom: 8px;
+    color: #2c3e50;
+    font-size: 20px;
+}
+
+.kartu-lagu p {
+    margin-bottom: 8px;
+    color: #555;
+    font-size: 14px;
+}
+
+.bedge-klasik {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: auto;
+}
+
+.bedge-klasik {
+    background-color: #e74c3c;
+    color: #ffffff;
+}
+
+.bedge-modern {
+    background-color: #3498db;
+    color: #ffffff;
+}
+
+.cover-album {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+
+.form-filter {
+    margin: 24px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.form-filter select {
+    padding: 8px 16px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    width: 200px;
+}
+
+.form-filter button {
+    padding: 8px 16px;
+    background-color: #2ecc71;
+    border: 1px solid #ccc;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.form-filter button:hover {
+    background-color: #27ae60;
+}
+
+.aksi-tombol {
+    margin-top: 16px;
+}

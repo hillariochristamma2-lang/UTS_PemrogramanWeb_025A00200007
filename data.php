@@ -7,7 +7,7 @@ $koleksiMusik = [
         'artis' => 'BABYMONSTER',
         'genre' => 'Dance Hip-Hop',
         'tahun' => 2026,
-        'gambar' => ''
+        'gambar' => 'asset\Choom.jpeg'
     ],
 
     [
@@ -15,7 +15,7 @@ $koleksiMusik = [
         'artis' => 'BABYMONSTER',
         'genre' => 'Pop Ballad',
         'tahun' => 2026,
-        'gambar' => ''
+        'gambar' => 'asset\Deserve.jpeg'
     ],
 
     [
@@ -23,7 +23,7 @@ $koleksiMusik = [
         'artis' => 'BABYMONSTER',
         'genre' => 'K-Pop, Hip-Hop, Dance/EDM',
         'tahun' => 2024,
-        'gambar' => ''
+        'gambar' => 'asset\Drip.jpeg'
     ],
 
     [
@@ -31,15 +31,15 @@ $koleksiMusik = [
         'artis' => 'iKON',
         'genre' => 'K-Pop, Dance-Pop, Hip-Hop',
         'tahun' => 2018,
-        'gambar' => ''
+        'gambar' => 'asset\Return.jpeg'
     ],
 
     [
         'judul' => 'Mistletoe',
         'artis' => 'Justin Bieber',
         'genre' => 'Christmas, Pop, R&B',
-        'tahun' => 20..,
-        'gambar' => ''
+        'tahun' => 2011,
+        'gambar' => 'asset\Mistletoe.jpeg'
     ],
 
     [
@@ -47,7 +47,7 @@ $koleksiMusik = [
         'artis' => 'Naomi Scott',
         'genre' => 'Pop/Soundtrack/Musical Ballad',
         'tahun' => 2019,
-        'gambar' => ''
+        'gambar' => 'asset\Speechless.jpeg'
     ],
 
     [
@@ -55,7 +55,7 @@ $koleksiMusik = [
         'artis' => 'Elevation Worship',
         'genre' => 'Contemporary Worship Music/Christian/Rock',
         'tahun' => 2023,
-        'gambar' => ''
+        'gambar' => 'asset\Praise.jpeg'
     ],
 
     [
@@ -70,7 +70,7 @@ $koleksiMusik = [
         'judul' => 'Kita',
         'artis' => 'Sheila On 7',
         'genre' => 'Pop Rock, Alternative Rock',
-        'tahun' => 199,
+        'tahun' => 1999,
         'gambar' => ''
     ],
 
@@ -113,4 +113,4 @@ $koleksiMusik = [
         'tahun' => 1997,
         'gambar' => ''
     ]
-]
+];

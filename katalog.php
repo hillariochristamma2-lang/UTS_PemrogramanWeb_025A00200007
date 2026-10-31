@@ -50,7 +50,38 @@ $totalLagu = count($koleksiMusik)
                     <option value="tahun_baru" <?= ($sortPilihan === 'tahun_baru') ? 'selected' : '' ?>> Tahun (Terbaru) </option>
                     <option value="tahun_lama" <?= ($sortPilihan === 'tahun_lama') ? 'selected' : '' ?>> Tahun (Terbaru) </option>
                 </select>
+
+                <select name="genre">
+                    <option value=""> Filter Berdasarkan Genre </option>
+                    <?php foreach ($semuaGenre as $genre): ?>
+                        <option value="<?= htmlspecialchars($genre) ?>" <?= ($genrePilihan === $genre) ? 'selected' : '' ?>> <?= htmlspecialchars($genre) ?> </option>
+                    <?php endforeach; ?>
+                </select>
+
+                <button type="submit"> Terapkan </button>
+                <a href="katalog.php" class="btn-reset"> Reset </a>
             </form>
+        </section>
+
+        <section class="gird-katalog">
+            <?php foreach ($koleksiMusik as $lagu): ?>
+                <article class="kartu-lagu">
+                    <img src="assets/<?= htmlspecialchars($lagu['gambar']) ?>"
+                        alt="Cover album <?= htmlspecialchars($lagu['judul']) ?> karya <?= htmlspecialchars($lagu['artis']) ?>"
+                        class="cover-album">
+
+                    <h3> <?= htmlspecialchars($lagu['judul']) ?> </h3>
+                    <p>Artis:  <?= htmlspecialchars($lagu['artis']) ?> </p>
+                    <p>Genre: <?= htmlspecialchars($lagu['genre']) ?> </p>
+
+                    <?php 
+                        $era = dapatkanEraLagu($lagu['tahun']);
+                        $warnaBadge = ($era === "Klasik") ? "badge-klasik" : "badge-modern";
+                    ?>
+
+                    <span class="<?= $warnaBadge ?>"> <?= $era ?> (<?= htmlspecialchars((string)$lagu['tahun']) ?>) </span>
+                </article>
+            <?php endforeach; ?>
         </section>
     </main>
 </body>
