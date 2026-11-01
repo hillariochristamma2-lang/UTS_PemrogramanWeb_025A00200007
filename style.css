@@ -158,7 +158,7 @@ footer {
     color: #2c3e50;
 }
 
-.ringkasan a {
+/* .ringkasan a {
     display: inline-block;
     margin-top: 16px;
     padding: 8px 16px;
@@ -167,10 +167,42 @@ footer {
     text-decoration: none;
     border-radius: 6px;
     transition: background-color 0.3s ease, transform 0.2s ease;
+} */
+
+/* .ringkasan a:hover {
+    background-color: #2980b9;
+    transform: translateY(-2px);
+} */
+
+.btn-reset {
+    display: inline-block;
+    margin-top: 0;
+    padding: 8px 16px;
+    background-color: #c00f0f;
+    color: #ffff;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
-.ringkasan a:hover {
-    background-color: #2980b9;
+.btn-reset:hover {
+    background-color: #ff0000;
+    transform: translateY(-2px);
+}
+
+.btn-submit {
+    display: inline-block;
+    margin-top: 0;
+    padding: 8px 16px;
+    background-color: #2ecc71;
+    color: #ffff;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-submit:hover {
+    background-color: #27ae60;
     transform: translateY(-2px);
 }
 

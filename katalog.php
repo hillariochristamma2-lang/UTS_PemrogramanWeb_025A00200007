@@ -67,7 +67,7 @@ $totalLagu = count($koleksiMusik)
                     <?php endforeach; ?>
                 </select>
 
-                <button type="submit"> Terapkan </button>
+                <button type="submit" class="btn-submit"> Terapkan </button>
                 <a href="katalog.php" class="btn-reset"> Reset </a>
             </form>
         </section>

@@ -30,7 +30,7 @@ $asal   = 'Surakarta';
     <main>
         <section class="profil-kolektor">
             <h2> Profil Kolektor </h2>
-            <img src="asset\profil-sementara.jpeg" alt="Foto Profil" <?= htmlspecialchars($nama) ?> class="foto-profil">
+            <img src="asset\Profil.jpeg" alt="Foto Profil" <?= htmlspecialchars($nama) ?> class="foto-profil">
 
             <h3> <?= htmlspecialchars($nama) ?></h3>
             <p> Mahasiswa <?= htmlspecialchars($prodi) ?> di <?= htmlspecialchars($univ) ?>, asal <?= htmlspecialchars($asal) ?>. </p>
