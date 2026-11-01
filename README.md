@@ -56,10 +56,10 @@ Berikut adalah daftar fitur utama beserta file dan fungsi yang menanganinya:
 
 ## 6. Tangkapan Layar (Screenshots) Aplikasi
 - ### Tangkapan Layar Halaman Profile `index.php`
-  - ![Tampilan Halaman Profile](screenshots\WebProfil.png)
+  - ![Tampilan Halaman Profile](screenshots/WebProfil.png)
 - ### Tangkapan Layar Halaman Katalog `katalog.php`
-  - ![Tampilan Halaman Katalog](screenshots\WebKatalog1.png)
-  - ![Tampilan Halaman Katalog](screenshots\WebKatalog2.png)
+  - ![Tampilan Halaman Katalog](screenshots/WebKatalog1.png)
+  - ![Tampilan Halaman Katalog](screenshots/WebKatalog2.png)
 
 ---
 
