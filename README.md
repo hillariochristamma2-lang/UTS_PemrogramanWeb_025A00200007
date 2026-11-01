@@ -24,15 +24,13 @@ Ikuti langkah-langkah dibawah ini untuk menjalankan proyek di local server
 1. **Pastikan Sudah Mengaktifkan Server PHP**
     * Instal dan jalankan local web server seperti **Laragon**, **XAMPP**
 2. **Kloning atau Salin Repositori**
-    Lakukan **git clone** atau ekstrak file yang sudah diinstal dalam bentuk ZIP, ekstrak langsung ke ddalam direktori *document root* di server anda. Pastikan folder proyek dinamai sesuai format tugas, contohnya :
-        * **Laragon**   : `C:\laragon\www\uts-pemweb-025A00200007`
-        * **XAMPP**     : `C:\xampp\htdocs\uts-pemweb-025A00200007`
-3. **Akses Melalui Web Browser:**
-    * Buka web browser(Chrome) dan akses tautan berikut: 
-    ```
-    http://localhost/uts-pemweb-025A00200007
-    ```
+    * Unduh atau clone repositori ini dan pastikan folder bernama `uts-pemweb-[NIM]`.
+3. **Pindahkan folder proyek ke dalam direktori server Anda:**
+    * Jika menggunakan XAMPP: letakkan di dalam folder `C:\xampp\htdocs\`
+    * Jika menggunakan Laragon: letakkan di dalam folder `C:\laragon\www\`
     * Gunakan menu navigasi yang tersedia dibagian atas untuk berpindah antar halaman Profil dan halamanan Katalog Musik
+4. Nyalakan layanan Apache melalui aplikasi XAMPP/Laragon Control Panel.
+5. Buka web browser Anda, lalu akses URL: `http://localhost/uts-pemweb-[NIM]/index.php`
 
 ---
 
@@ -44,6 +42,8 @@ Berikut adalah daftar fitur utama beserta file dan fungsi yang menanganinya:
 - Pengurutan (Sort) Katalog : mengurutkan musik berdasarkan judul A-Z dan Z-A, Tahun (Terbaru, Terlama). Ditangani form GET di `katalog.php` dan fungsi `urutkanKatalog()` di `functions.php`
 - Era Lagu Klasik/Modern : memberikan badge dinamis berdasarkan tahun rilis lagu menggunakan percabangan if dan ditangani fungsi `dapatkanEraLagu()` di `functions.php` dan di tampilkan di `katalog.php`
 - Ringkasan Koleksi : menampilkan jumlah total lagu di vault dan total lagu setelah di filter `katalog.php`
+
+---
 
 ## 5. Fungsi Array Bawaan Yang Dipakai
 1. `array_column()` : digunakan di `katalog.php`, untuk mengambil satu kolom nilai spesifik yaitu `genre`, dari kumpulan array assosiatif `$koleksiMusik`
