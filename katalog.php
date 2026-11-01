@@ -3,6 +3,7 @@ declare(strict_types=1);
 require 'data.php';
 require 'functions.php';
 
+$nama   = 'Hillario Jasson Vlavian Vega Christamma';
 $semuaGenre = array_unique(array_column($koleksiMusik, 'genre'));
 $totalKeseluruhan = count($koleksiMusik);
 
@@ -92,5 +93,9 @@ $totalLagu = count($koleksiMusik)
             <?php endforeach; ?>
         </section>
     </main>
+
+    <footer class="footer-katalog">
+        <p>&copy; 2026 <?= htmlspecialchars($nama) ?>. Proyek UTS Pemrogaman Web </p>
+    </footer>
 </body>
 </html>

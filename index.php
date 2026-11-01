@@ -34,7 +34,10 @@ $asal   = 'Surakarta';
 
             <h3> <?= htmlspecialchars($nama) ?></h3>
             <p> Mahasiswa <?= htmlspecialchars($prodi) ?> di <?= htmlspecialchars($univ) ?>, asal <?= htmlspecialchars($asal) ?>. </p>
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt voluptatibus, vitae eaque minima nam perferendis, sint repellendus modi obcaecati, culpa facere. Facilis suscipit expedita enim incidunt eaque necessitatibus nemo in? </p>
+            <p> 
+                Daily listener lintas genre, mulai dari K-Pop, Pop Rock hingga genre Country. Katalog ini dibagun untuk mengakurasi trek favorit dari berbagai musisi seperti
+                BABYMONSTER, iKON hingga Sheila On 7, memadukan hobi mendengarkan musik dengan eksperimen desain antarmuka web.
+            </p>
         </section>
     </main>
 

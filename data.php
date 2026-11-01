@@ -63,7 +63,7 @@ $koleksiMusik = [
         'artis' => 'Sheila On 7',
         'genre' => 'Pop Rock',
         'tahun' => 1999,
-        'gambar' => ''
+        'gambar' => 'SHeila On 7.jpeg'
     ],
 
     [
@@ -71,7 +71,7 @@ $koleksiMusik = [
         'artis' => 'Sheila On 7',
         'genre' => 'Pop Rock, Alternative Rock',
         'tahun' => 1999,
-        'gambar' => ''
+        'gambar' => 'SHeila On 7.jpeg'
     ],
 
     [
@@ -79,7 +79,7 @@ $koleksiMusik = [
         'artis' => 'Celine Dion',
         'genre' => 'Pop, Simfoni, Adult Contemporary',
         'tahun' => 1997,
-        'gambar' => ''
+        'gambar' => 'Celine Dion.jpeg'
     ],
 
     [
@@ -87,7 +87,7 @@ $koleksiMusik = [
         'artis' => 'Chrisye',
         'genre' => 'Pop (sentuhan etnik Jawa)',
         'tahun' => 1997,
-        'gambar' => ''
+        'gambar' => 'Chrisye.jpg'
     ],
 
     [
@@ -95,7 +95,7 @@ $koleksiMusik = [
         'artis' => 'Backstreet Boys',
         'genre' => 'Pop Ballad, Adult Contemporary',
         'tahun' => 2000,
-        'gambar' => ''
+        'gambar' => 'BackstreetBoys.jpeg'
     ],
 
     [
@@ -103,7 +103,7 @@ $koleksiMusik = [
         'artis' => 'JohnDenver',
         'genre' => 'Country Folk and Folk-Rock',
         'tahun' => 1971,
-        'gambar' => ''
+        'gambar' => 'Jhon Denver.jpeg'
     ],
 
     [
@@ -111,6 +111,6 @@ $koleksiMusik = [
         'artis' => 'Shania Twain',
         'genre' => 'Country Pop',
         'tahun' => 1997,
-        'gambar' => ''
+        'gambar' => 'Shania Twain.jpeg'
     ]
 ];
